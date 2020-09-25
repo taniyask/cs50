@@ -1,0 +1,160 @@
+<html lang="en">
+	<head>
+		<title> Advanced Search </title>
+		<style>
+			a {
+				text-decoration: none;
+			}
+			.topdeco {
+				border: 7px solid #E8E8E8;
+				text-align: right;
+				font-size: 14px;
+				padding-bottom: 7px;
+				background-color: #E8E8E8;
+			}
+			table {
+				width: 83%;
+				height: 50px;
+			}
+			th {
+
+				text-align: left;
+				font-size: 10px;
+				padding-bottom: 10px;
+				color: #767676;
+				font-family: Arial;
+			}
+			td {
+				color: #5a5a5a;
+				text-align: left;
+				padding-bottom:10px;
+			}
+			input {
+				width: 410px;
+				border: 1px solid #bdbdbd;
+				padding: 2px;
+				
+			}
+			h4 {
+				border-bottom: 1px solid #E8E8E8;
+				color: #D14224;
+				font-weight: normal;
+				vertical-align: middle;
+				padding-bottom: 15px;
+				font-family: Arial;
+				padding-left: 15px;
+			}
+			a {
+				text-decoration: none;
+			}
+			
+			.lc {
+				font-size: 10px;
+				vertical-align: top;
+				font-family: Arial;
+				padding-top: 4px;
+				color: #1e1e1e;
+				padding-left: 13px;
+			}
+			.rc {
+				font-size: 8.5px;
+				vertical-align: top;
+				padding-right:155px;
+				padding-top: 4px;
+				font-family: Arial;
+			}
+			.image {
+				
+				width: 90px;
+				float: left;
+				vertical-align:middle;
+			}
+			.button {
+				background-color: #4c8bf5;
+				width: 20%;
+				padding: 5px 0px;
+				border: 1px solid #4c8bf5;
+				border-radius: 2px;
+				color: white;
+				font-size: 9px;
+				margin-right: 19px;
+			}
+			
+			
+		</style>
+	</head>
+	<body style="margin: 0">
+		<div  class=topdeco>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" class=image>
+			<a href="project-0_search.html"> Google Search</a>
+			&nbsp
+			&nbsp
+		</div>
+		<h4> Advanced Search </h4>
+		<br>
+		<form action="https://google.com/search">
+		<table>
+			<tr>
+				<th style="font-size:12px;font-weight: normal; font-family: Arial; color:#141414"> &nbsp Find pages with...  </th>
+				<th> </th>
+				<th> To do this in the search box. </th>
+			</tr>
+			<tr>
+				<td class=lc>
+						all these words: 
+				</td>
+				<td>
+					<input type="text" name="as_q">
+				</td>
+				<td class=rc>
+					Type the important words: tri-colour rat terrier
+				</td>
+			</tr>
+			<tr>
+				<td class=lc>
+					this exact word or phrase:
+				</td>
+				<td>
+					<input type="text" name="as_epq"> 
+				</td>
+				<td class=rc>
+					Put exact words in quotes: "rat terrier"
+				</td>
+			</tr>
+			<tr>
+				<td class=lc>
+					any of these words:
+				</td>
+				<td>
+					<input type="text" name="as_oq"> 
+				</td>
+				<td class=rc>
+					Type OR between all the words you want: miniature OR standard
+				</td>
+			</tr>
+			<tr>
+				<td class=lc>
+					none of these words:
+				</td>
+				<td>
+					<input type="text" name="as_eq"> 
+				</td>
+				<td class=rc>
+					Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<div align="right">
+						<input type="submit" class=button value= "Advanced Search">
+						
+					</div>
+				</td>
+				<td></td>
+			</tr>	
+		</table>
+		<p style="border: 1px solid #E8E8E8">
+		</form>
+	</body>
+</html>
